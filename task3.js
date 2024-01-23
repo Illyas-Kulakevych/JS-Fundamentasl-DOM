@@ -18,7 +18,12 @@
 
 
 function applyStyles() {
-// Ваш код ...
+    const elemContainer = document.querySelector('.create_elements');
+    elemContainer.innerHTML = `<main class="mainClass check item">         
+                                   <div id="myDiv">
+                                       <p>First paragraph</p>           
+                                   </div>
+                               </main> `
 }
 
 
